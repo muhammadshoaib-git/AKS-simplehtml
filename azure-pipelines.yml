@@ -11,12 +11,12 @@ pool:
 
 variables:
   imageRepository: 'aks-simplehtml'
-  containerRegistry: 'aksacr11.azurecr.io'
+  containerRegistry: 'isp14.azurecr.io'
   dockerRegistryServiceConnection: 'ACR-Service-Connection'
 
   azureServiceConnection: 'Azure-Service-Connection'
-  aksResourceGroup: 'aks-demo-rg'
-  aksClusterName: 'aks-demo'
+  aksResourceGroup: 'az400_group'
+  aksClusterName: 'az400'
 
 stages:
 
