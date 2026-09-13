@@ -11,7 +11,7 @@ pool:
 
 variables:
   imageRepository: 'aks-simplehtml'
-  containerRegistry: 'aksacr11.azurecr.io'
+  containerRegistry: 'isp14.azurecr.io'
   dockerRegistryServiceConnection: 'ACR-Service-Connection'
 
   azureServiceConnection: 'Azure-Service-Connection'
